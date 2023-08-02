@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.avatar {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+.header p {
+  font-size: 16px;
+  color: #04f300;
+  font-family: cursive;
+  font-family: "Open Sans", sans-serif;
+}
+.contact-tab {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(185, 165, 35);
+  padding: 3px;
+}
+.contactText {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #0b0202;
+  width: auto;
+}
+.contactText p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+/*  */
+.left-sidebar-header {
+  box-shadow: 0 4px 8px 0 rgba(236, 229, 229, 0.2), 0 6px 20px 0 rgba(31, 181, 31, 0.19);
+}
+
+/* new convo tab */
+.new-convo {
+  display: flex;
+  color: #06f140;
+  justify-content: space-between;
+}
+.new-convo p {
+  font-size: 16px;
+}
+.new-convo .fa {
+  cursor: pointer;
+  padding: 8px;
+}
+.new-convo-tab {
+  border: 1px solid rgb(252, 248, 248);
+  height: 400px;
+  width: 400px;
+  background-color: rgb(249, 249, 247);
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  z-index: 99;
+}
+.nct-header {
+  background-color: #dcdecd;
+  color: #3a628f;
+  height: 55px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.nct-header p {
+  font-size: 20px;
+}
+.nct-header .fas {
+  cursor: pointer;
+}
+.nct-list {
+  height: 345px;
+  overflow: auto;
+}
+@media screen and (max-width: 1200px) {
+  .new-convo-tab {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 792px) {
+  .new-convo-tab {
+    top: 100px;
+    right: 30%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .new-convo-tab {
+    top: 100px;
+    right: 25%;
+  }
+}

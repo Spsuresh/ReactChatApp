@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.link-tag {
+  text-decoration:rgb(16, 223, 231);
+}
+/* media queries */
+.right-sidebar {
+  padding: 0;
+  background-color: #8c612f;
+}
+.left-sidebar {
+  background-color: rgb(89, 97, 141);
+}
